@@ -1,3 +1,21 @@
+# About this fork
+
+[RGB60 PCB](https://ja.aliexpress.com/item/32851241926.html) にVIA対応を行い以下のレイアウトにする
+![Layout](keyboard-layout.png)
+
+### compile
+
+qmk compile -kb gh60/v1p3 -km via
+    
+### flash書き込み
+
+qmk flash -kb gh60/v1p3 -km via
+    
+### EEPROMクリア
+
+[bootmagic](docs/feature_bootmagic.md)を有効にしているので ESC 押しながらUSB接続する
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
