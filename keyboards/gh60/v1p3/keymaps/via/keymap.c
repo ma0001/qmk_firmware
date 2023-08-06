@@ -21,14 +21,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,      KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC,        KC_BSPC,
         KC_LCTL,       KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, _______, KC_ENT,
         KC_LSFT, _______, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, _______, _______, MO(1),
-        KC_LCTL, KC_LALT, _______, KC_LGUI, _______, _______,                    KC_SPC,  _______,  KC_RGUI, KC_LEFT, KC_UP, _______, KC_DOWN, KC_RGHT
+        KC_LCTL, KC_LALT, _______, KC_LGUI, _______, _______,                    KC_SPC,  _______,  KC_RGUI, KC_LEFT, KC_DOWN, _______, KC_UP, KC_RGHT
     ),
     [1] = LAYOUT_all(
     KC_KB_POWER, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_INS,  _______, KC_DEL,
         _______,     RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, _______, _______, KC_UP,   _______,        KC_BSPC,
         _______,       _______, _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGUP, KC_LEFT, KC_RGHT, _______, _______,
         _______, _______, QK_BOOT, _______, _______, _______, KC_VOLD, KC_MUTE, KC_VOLU, KC_END, KC_PGDN,  KC_DOWN, _______, _______, _______, _______,
-        _______, _______, _______, _______, _______, _______,                   _______, _______, _______, KC_HOME, KC_PGUP, KC_PGDN, KC_PGDN, KC_END
+        _______, _______, _______, _______, _______, _______,                   _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_PGUP, KC_END
     ),
     [2] = LAYOUT_all(
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
